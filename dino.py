@@ -31,7 +31,7 @@ GROUND_LEVEL_Y = -9999 # Initial placeholder - WILL BE OVERWRITTEN
 # 3. Initialize Pygame (Turning on the Magic)
 print("Initializing Pygame...")
 pygame.init()
-pygame.mixer.init() # For sounds later
+#pygame.mixer.init() # For sounds later
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("My Awesome Dino Runner!")
 clock = pygame.time.Clock()
